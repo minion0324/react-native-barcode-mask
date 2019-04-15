@@ -120,8 +120,8 @@ class BarcodeMask extends React.Component {
   _applyMaskFrameTransparency = () => {
     let transparency = 0.6;
     if (
-      this.props.transparency &&
-      Number(this.props.transparency) &&
+      // this.props.transparency &&
+      // Number(this.props.transparency) &&
       (this.props.transparency >= 0 || this.props.transparency <= 1)
     ) {
       transparency = this.props.transparency;
